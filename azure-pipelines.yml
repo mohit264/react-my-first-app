@@ -17,6 +17,9 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
+    clear
+    ls -a
+    whoami
     npm install
     npm run build
   displayName: 'npm install and build'
